@@ -54,11 +54,11 @@
                                 <li>
                                     <!-- Site Logo -->
                                     <div class="logo-wrap">
-                                        <a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Mist" src="images/education/logo.png"></a>
+                                        <a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Mist" src="images/logo/logo_main1.png"></a>
                                     </div>
                                     <!-- Logo Wrapper -->
                                     <div class="logo-wrap m-0">
-                                        <a href="index.html" class="site-logo sticky-logo"><img class="img-fluid mr-3" alt="Mist" src="images/education/logo.png"></a>
+                                        <a href="index.html" class="site-logo sticky-logo"><img class="img-fluid mr-3" alt="Mist" src="images/logo/logo_main1.png"></a>
                                     </div>
                                 </li>
 
@@ -285,8 +285,8 @@
                     <div class="header-parts-nav d-flex">
                         <div class="header-left d-flex">
                             <div class="logo-wrap">
-                                <a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Mist" src="images/education/logo.png"></a>
-                                <a href="index.html" class="site-logo sticky-logo"><img class="img-fluid" alt="Mist" src="images/education/logo.png"></a>
+                                <a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Mist" src="images/logo/logo_main1.png"></a>
+                                <a href="index.html" class="site-logo sticky-logo"><img class="img-fluid" alt="Mist" src="images/logo/logo_main1.png"></a>
                             </div>
                         </div> <!-- .header-left -->
                         <div class="header-right d-flex ml-auto">
