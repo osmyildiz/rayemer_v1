@@ -1,0 +1,136 @@
+.theme-color {
+    color: #00d383;
+}
+ul.site-menu > li.active > a, ul.site-menu > li> a:hover, ul.site-menu > li> a:active, .header-sticky ul.site-menu > li.active > a, .header-sticky ul.site-menu > li> a:hover, .header-sticky ul.site-menu > li> a:active {
+    color: #00d383;
+}
+.header-navbar a:hover, .header-navbar a:active, .set-header-sticky.header-sticky a:hover, .set-header-sticky.header-sticky a:active, .mobile-header a:hover, .mobile-header a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #00d383;
+}
+.set-header-sticky.header-sticky .header-navbar a:hover, .set-header-sticky.header-sticky .header-navbar a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #00d383;
+}
+.set-header-sticky:not(.header-sticky) .header-abs a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs a:active,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:active {
+	color: #00d383;
+}
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:active,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:active {
+	color: #00d383;
+}
+ul.site-menu li.menu-item-has-children .sub-menu a:hover, ul.site-menu li.menu-item-has-children .sub-menu a:active {
+    color: #00d383;
+}
+.btn-primary {
+    background: #00d383;
+    border-color: #00d383;
+}
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #00d383;
+    border-color: #00d383;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #00d383;
+    border-color: #00d383;
+}
+.btn-outline-primary {
+    color: #00d383;
+    border-color: #00d383;
+}
+.btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    background: #00d383;
+    border-color: #00d383;
+}
+.section-sub-title {
+    color: #00d383;
+}
+.secion-seperator:before {
+    border-top: 4px solid #00d383;
+}
+.secion-seperator:after {
+    border-top: 4px solid #00d383;
+}
+.waves-icon {
+    background: #00d383;
+    color: #fff;
+}
+.waves-icon:hover {
+    color: #00d383;
+	background: #fff;
+}
+span.arrow-icon {
+    background: #00d383;
+}
+a:hover, a:active {
+    color: #00d383;
+}
+.feature-box:hover .icon-theme {
+    color: #00d383;
+}
+.feature-box.feature-box-radius:hover {
+    background-color: #c7ffea;
+}
+.subscribe-form button {
+    background: #00d383;
+}
+.accordion-item .card-header .btn {
+    background: #00d383;
+}
+.progress-bar {
+    background: #00d383;
+}
+.progress-classic span.progress-value {
+    background: #00d383;
+}
+.progress-classic span.progress-value:after {
+    border-top: 5px solid #00d383;
+}
+.flip-box-back {
+    background-color: #00d383;
+}
+.portfolio-inner:after {
+    background: #00d383;
+}
+ul.overlay-icons > li > a:hover {
+    background: #00d383;
+}
+.about-img-1-overlay {
+    background: #00d383;
+}
+.team-overlay {
+    background: #00d383;
+}
+.price-table .price-badge {
+    background-color: #00d383;
+}
+.date-overlay-wrap {
+    background: #00d383;
+}
+.blog-wrapper:hover .post-title {
+    color: #00d383;
+}
+.nav-light-to-theme a:hover, .nav-light-to-theme a:active {
+    color: #00d383;
+}
+.contact-wrapper:hover .contact-info-btn span {
+    background: #00d383;
+}
+li.cat-item:before {
+    color: #00d383;
+}
+.form-control:focus {
+    border-color: #00d383;
+}
+.subscribe-form input:focus {
+    border-color: #00d383;
+}
+.search-widget .input-group input.form-control {
+    border: 1px solid #00d383;
+}
+span.info-large-icon {
+    color: #00d383;
+}

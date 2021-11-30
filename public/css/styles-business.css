@@ -1,0 +1,149 @@
+.theme-color {
+    color: #152860;
+}
+.secondry-color {
+    color: #a1ef8b;
+}
+ul.site-menu > li.active > a, ul.site-menu > li> a:hover, ul.site-menu > li> a:active, .header-sticky ul.site-menu > li.active > a, .header-sticky ul.site-menu > li> a:hover, .header-sticky ul.site-menu > li> a:active {
+    color: #152860;
+}
+.header-navbar a:hover, .header-navbar a:active, .set-header-sticky.header-sticky a:hover, .set-header-sticky.header-sticky a:active, .mobile-header a:hover, .mobile-header a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #152860;
+}
+.set-header-sticky.header-sticky .header-navbar a:hover, .set-header-sticky.header-sticky .header-navbar a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #152860;
+}
+.set-header-sticky:not(.header-sticky) .header-abs a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs a:active,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:active {
+	color: #152860;
+}
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:active,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:active {
+	color: #152860;
+}
+ul.site-menu li.menu-item-has-children .sub-menu a:hover, ul.site-menu li.menu-item-has-children .sub-menu a:active {
+    color: #152860;
+}
+.btn-primary {
+    background: #152860;
+    border-color: #152860;
+}
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #152860;
+    border-color: #152860;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #152860;
+    border-color: #152860;
+}
+.btn-outline-primary {
+    color: #152860;
+    border-color: #152860;
+}
+.btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    background: #152860;
+    border-color: #152860;
+}
+.section-sub-title {
+    color: #152860;
+}
+.secion-seperator:before {
+    border-top: 4px solid #a1ef8b;
+}
+.secion-seperator:after {
+    border-top: 4px solid #a1ef8b;
+}
+.waves-icon {
+    background: #152860;
+    color: #fff;
+}
+.waves-icon:hover {
+    color: #152860;
+	background: #fff;
+}
+span.arrow-icon {
+    background: #152860;
+}
+a:hover, a:active {
+    color: #152860;
+}
+.feature-box:hover .icon-theme {
+    color: #152860;
+}
+.subscribe-form button {
+    background: #152860;
+}
+.accordion-item .card-header .btn {
+    background: #152860;
+}
+.progress-bar {
+    background: #152860;
+}
+.progress-classic span.progress-value {
+    background: #152860;
+}
+.progress-classic span.progress-value:after {
+    border-top: 5px solid #152860;
+}
+.flip-box-back {
+    background-color: #152860;
+}
+.portfolio-inner:after {
+    background: #152860;
+}
+ul.overlay-icons > li > a:hover {
+    background: #152860;
+}
+.about-img-1-overlay {
+    background: #a1ef8b;
+}
+.team-overlay {
+    background: #152860;
+}
+.price-table .price-badge {
+    background-color: #a1ef8b;
+}
+.date-overlay-wrap {
+    background: #152860;
+}
+.blog-wrapper:hover .post-title {
+    color: #152860;
+}
+.nav-light-to-theme a:hover, .nav-light-to-theme a:active {
+    color: #152860;
+}
+.contact-wrapper:hover .contact-info-btn span {
+    background: #152860;
+}
+li.cat-item:before {
+    color: #152860;
+}
+.form-control:focus {
+    border-color: #152860;
+}
+.subscribe-form input:focus {
+    border-color: #152860;
+}
+.search-widget .input-group input.form-control {
+    border: 1px solid #152860;
+}
+.header-topbar {
+    min-height: 50px;
+    background: #152860;
+    display: flex;
+    align-items: center;
+}
+.header-navbar {
+    display: flex;
+    align-items: center;
+}
+span.info-icon {
+    color: #a1ef8b;
+}
+span.info-large-icon {
+    color: #a1ef8b;
+}

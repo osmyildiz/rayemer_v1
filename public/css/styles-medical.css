@@ -1,0 +1,136 @@
+.theme-color {
+    color: #0574ff;
+}
+ul.site-menu > li.active > a, ul.site-menu > li> a:hover, ul.site-menu > li> a:active, .header-sticky ul.site-menu > li.active > a, .header-sticky ul.site-menu > li> a:hover, .header-sticky ul.site-menu > li> a:active {
+    color: #0574ff;
+}
+.header-navbar a:hover, .header-navbar a:active, .set-header-sticky.header-sticky a:hover, .set-header-sticky.header-sticky a:active, .mobile-header a:hover, .mobile-header a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #0574ff;
+}
+.set-header-sticky.header-sticky .header-navbar a:hover, .set-header-sticky.header-sticky .header-navbar a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #0574ff;
+}
+.set-header-sticky:not(.header-sticky) .header-abs a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs a:active,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:active {
+	color: #0574ff;
+}
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:active,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:active {
+	color: #0574ff;
+}
+ul.site-menu li.menu-item-has-children .sub-menu a:hover, ul.site-menu li.menu-item-has-children .sub-menu a:active {
+    color: #0574ff;
+}
+.btn-primary {
+    background: #0574ff;
+    border-color: #0574ff;
+}
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #0574ff;
+    border-color: #0574ff;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #0574ff;
+    border-color: #0574ff;
+}
+.btn-outline-primary {
+    color: #0574ff;
+    border-color: #0574ff;
+}
+.btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    background: #0574ff;
+    border-color: #0574ff;
+}
+.section-sub-title {
+    color: #0574ff;
+}
+.secion-seperator:before {
+    border-top: 4px solid #0574ff;
+}
+.secion-seperator:after {
+    border-top: 4px solid #0574ff;
+}
+.waves-icon {
+    background: #0574ff;
+    color: #fff;
+}
+.waves-icon:hover {
+    color: #0574ff;
+	background: #fff;
+}
+span.arrow-icon {
+    background: #0574ff;
+}
+a:hover, a:active {
+    color: #0574ff;
+}
+.feature-box:hover .icon-theme {
+    color: #0574ff;
+}
+.subscribe-form button {
+    background: #0574ff;
+}
+.accordion-item .card-header .btn {
+    background: #0574ff;
+}
+.progress-bar {
+    background: #0574ff;
+}
+.progress-classic span.progress-value {
+    background: #0574ff;
+}
+.progress-classic span.progress-value:after {
+    border-top: 5px solid #0574ff;
+}
+.flip-box-back {
+    background-color: #0574ff;
+}
+.portfolio-inner:after {
+    background: #0574ff;
+}
+ul.overlay-icons > li > a:hover {
+    background: #0574ff;
+}
+.about-img-1-overlay {
+    background: #0574ff;
+}
+.team-overlay {
+    background: #0574ff;
+}
+.price-table .price-badge {
+    background-color: #0574ff;
+}
+.date-overlay-wrap {
+    background: #0574ff;
+}
+.blog-wrapper:hover .post-title {
+    color: #0574ff;
+}
+.nav-light-to-theme a:hover, .nav-light-to-theme a:active {
+    color: #0574ff;
+}
+.contact-wrapper:hover .contact-info-btn span {
+    background: #0574ff;
+}
+li.cat-item:before {
+    color: #0574ff;
+}
+.form-control:focus {
+    border-color: #0574ff;
+}
+.subscribe-form input:focus {
+    border-color: #0574ff;
+}
+.search-widget .input-group input.form-control {
+    border: 1px solid #0574ff;
+}
+.header-topbar {
+    background-color:  #0574ff;
+}
+.header-navbar .header-parts-nav > div, .mobile-header .header-parts-nav > div {
+    line-height: 90px;
+}

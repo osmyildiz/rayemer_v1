@@ -1,0 +1,145 @@
+.theme-color {
+    color: #1475ca;
+}
+ul.site-menu > li.active > a, ul.site-menu > li> a:hover, ul.site-menu > li> a:active, .header-sticky ul.site-menu > li.active > a, .header-sticky ul.site-menu > li> a:hover, .header-sticky ul.site-menu > li> a:active {
+    color: #1475ca;
+}
+.header-navbar a:hover, .header-navbar a:active, .set-header-sticky.header-sticky a:hover, .set-header-sticky.header-sticky a:active, .mobile-header a:hover, .mobile-header a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #1475ca;
+}
+.set-header-sticky.header-sticky .header-navbar a:hover, .set-header-sticky.header-sticky .header-navbar a:active, .set-header-sticky.header-sticky .mobile-header a:hover, .set-header-sticky.header-sticky .mobile-header a:active {
+    color: #1475ca;
+}
+.set-header-sticky:not(.header-sticky) .header-abs a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs a:active,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs ul.site-menu > li > a:active {
+	color: #1475ca;
+}
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark a:active,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:hover,
+.set-header-sticky:not(.header-sticky) .header-abs.header-abs-dark > li > a:active {
+	color: #1475ca;
+}
+ul.site-menu li.menu-item-has-children .sub-menu a:hover, ul.site-menu li.menu-item-has-children .sub-menu a:active {
+    color: #1475ca;
+}
+.btn-primary {	
+    background: #1475ca;
+    border-color: #1475ca;
+}
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #1475ca;
+    border-color: #1475ca;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #1475ca;
+    border-color: #1475ca;
+}
+.btn-outline-primary {
+    color: #1475ca;
+    border-color: #1475ca;
+}
+.btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    background: #1475ca;
+    border-color: #1475ca;
+}
+.section-sub-title {
+    color: #1475ca;
+}
+.secion-seperator:before {
+    border-top: 4px solid #1475ca;
+}
+.secion-seperator:after {
+    border-top: 4px solid #1475ca;
+}
+.waves-icon {
+    background: #1475ca;
+    color: #fff;
+}
+.waves-icon:hover {
+    color: #1475ca;
+	background: #fff;
+}
+span.arrow-icon {
+    background: #1475ca;
+}
+a:hover, a:active {
+    color: #1475ca;
+}
+.feature-box:hover .icon-theme {
+    color: #1475ca;
+}
+.subscribe-form button {
+    background: #1475ca;
+}
+.progress-bar {
+    background: #1475ca;
+}
+.progress-classic span.progress-value {
+    background: #1475ca;
+}
+.progress-classic span.progress-value:after {
+    border-top: 5px solid #1475ca;
+}
+.flip-box-back {
+    background-color: #1475ca;
+}
+.portfolio-inner:after {
+    background: #1475ca;
+}
+ul.overlay-icons > li > a:hover {
+    background: #1475ca;
+}
+.about-img-1-overlay {
+    background: #1475ca;
+}
+.team-overlay {
+    background: #1475ca;
+}
+.item-overlay {
+    background: #1475ca;
+}
+.price-table .price-badge {
+    background-color: #1475ca;
+}
+.date-overlay-wrap {
+    background: #1475ca;
+}
+.blog-wrapper:hover .post-title {
+    color: #1475ca;
+}
+.nav-light-to-theme a:hover, .nav-light-to-theme a:active {
+    color: #1475ca;
+}
+.contact-wrapper:hover .contact-info-btn span {
+    background: #1475ca;
+}
+li.cat-item:before {
+    color: #1475ca;
+}
+.form-control:focus {
+    border-color: #1475ca;
+}
+.subscribe-form input:focus {
+    border-color: #1475ca;
+}
+.search-widget .input-group input.form-control {
+    border: 1px solid #1475ca;
+}
+.header-topbar .header-parts-nav > div {
+    line-height: 60px;
+}
+.header-topbar {
+    background-color: #1475ca;
+}
+.header-navbar .header-parts-nav > div {
+	line-height: 100px;
+}
+.header-topbar .header-parts-nav > div {
+	font-size: 15px;
+}
+ul.site-menu a {
+    font-weight: 400;
+}
