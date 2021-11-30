@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\URL;
 
 class HomeController extends Controller
 {
@@ -55,11 +56,12 @@ class HomeController extends Controller
 
     }
 
-    public function root()
+    public function boot()
     {
-     //   return view('frontend.homepage');
+        if (env('APP_ENV') !== 'local') {
+            URL::forceScheme('https');
+        }
     }
-
 
 
 }

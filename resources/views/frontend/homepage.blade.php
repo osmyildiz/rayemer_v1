@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="col-lg-6 order-lg-2 pl-lg-5 text-center align-self-center">
                         <div class="about-image abs-element mb-5 mb-lg-0">
-                            <img class="img-fluid rounded" alt="Tab Image" src="images/education/7.jpg" />
+                            <img class="img-fluid rounded" alt="Tab Image" src="images/education/team.jpg" />
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-6 align-self-center text-center text-lg-left">
@@ -235,7 +235,7 @@
                 <div class="row">
                     <div class="col-lg-6 pr-lg-5 align-self-center text-center">
                         <div class="about-image mb-5 mb-lg-0">
-                            <img class="img-fluid rounded" alt="Tab Image" src="images/education/9.jpg" />
+                            <img class="img-fluid rounded" alt="Tab Image" src="images/education/sss.jpg" />
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-6 text-center text-lg-left">
@@ -403,65 +403,6 @@
         </div><!-- .section-inner -->
     </section>
 
-    <section class="blog-section">
-        <div class="section-inner">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9">
-                        <div class="section-title-wrapper mb-5 text-center">
-                            <h2 class="section-title mb-3">Latest News And Blogs</h2>
-                            <p class="secion-seperator"><span class="fa fa-newspaper-o"></span></p>
-                        </div>
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-wrapper mb-5 mb-lg-0 rounded">
-                            <figure class="post-image-wrapper">
-                                <img src="images/education/13.jpg" class="img-fluid" alt="Post Image"/>
-                            </figure>
-                            <div class="post-info-wrap">
-                                <ul class="nav post-top-meta mb-3">
-                                    <li class="post-author"><a href="#" class="text-muted">John Reacher</a></li>
-                                    <li class="post-date"><a href="#" class="text-muted">Spe 4, 2020</a></li>
-                                </ul>
-                                <h5 class="post-title mb-3">How to install Zend optimizer on Windows</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-wrapper mb-5 mb-lg-0 rounded">
-                            <figure class="post-image-wrapper">
-                                <img src="images/education/14.jpg" class="img-fluid" alt="Post Image"/>
-                            </figure>
-                            <div class="post-info-wrap">
-                                <ul class="nav post-top-meta mb-3">
-                                    <li class="post-author"><a href="#" class="text-muted">Selena Gomz</a></li>
-                                    <li class="post-date"><a href="#" class="text-muted">Spe 4, 2020</a></li>
-                                </ul>
-                                <h5 class="post-title mb-3">How to install Zend optimizer on Windows</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-wrapper rounded text-lg-left text-center">
-                            <figure class="post-image-wrapper">
-                                <img src="images/education/15.jpg" class="img-fluid" alt="Post Image"/>
-                            </figure>
-                            <div class="post-info-wrap">
-                                <ul class="nav post-top-meta mb-3 justify-content-lg-start justify-content-center">
-                                    <li class="post-author"><a href="#" class="text-muted">John Doe</a></li>
-                                    <li class="post-date"><a href="#" class="text-muted">Spe 4, 2020</a></li>
-                                </ul>
-                                <h5 class="post-title mb-3">How to install Zend optimizer on Windows</h5>
-                            </div>
-                        </div>
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .section-inner -->
-    </section>
+
 @endsection
 

@@ -8,13 +8,9 @@
 <link rel="stylesheet" href="{{asset('css/themify-icons.css')}}" >
 <!-- Font Awsome Icon -->
 <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}" >
-<!-- Et Icons -->
 <link rel="stylesheet" href="{{asset('css/et-icons.css')}}" >
-<!-- Magnific PopUp -->
 <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" >
-<!--  Owl Carousel Styles -->
 <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}" >
-<!-- YT Player -->
 <link rel="stylesheet" href="{{asset('css/jquery.mb.YTPlayer.min.css')}}" >
 
 <!-- REVOLUTION STYLE -->
