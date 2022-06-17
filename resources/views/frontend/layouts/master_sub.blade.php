@@ -20,7 +20,7 @@
 
 </head>
 <body>
-@include('frontend.layouts.header')
+@include('frontend.layouts.header_sub')
 
 @yield('slider')
 

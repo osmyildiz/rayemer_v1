@@ -21,4 +21,24 @@
 <!-- Site Styles -->
 <link rel="stylesheet" href="{{asset('css/styles.css')}}" />
 <link rel="stylesheet" href="{{asset('css/styles-education.css')}}" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168000544-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168000544-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 630168125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-630168125"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-630168125');
+</script>
+
+
 

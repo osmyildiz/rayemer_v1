@@ -1496,7 +1496,7 @@ span.element-icon {
     margin-bottom: 30px;
 }
 .widgets-footer {
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 h2.widget-title {
@@ -2344,13 +2344,13 @@ img.testimonial-img {
     max-width: 100px;
 }
 .attached-content {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
     color: #3f3a64;
 }
 @media only screen and (max-width: 767px) {
 	.attached-content {
-		font-size: 20px;
+		font-size: 12px;
 	}
 }
 .testimonial-attached {
