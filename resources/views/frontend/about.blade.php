@@ -1,4 +1,4 @@
-@extends('frontend.layouts.master')
+@extends('frontend.layouts.master_sub')
 @section('title','Rayemer')
 
 
@@ -12,7 +12,7 @@
                         <div class="blog-full-width mb-5">
                              <h2 class="post-title mt-4">Hakkımızda</h2>
 
-                            <p class=" align-self-center text-center text-lg-left">{!!$about->about_icerik!!}</p>
+                            <p class=" align-self-center text-center text-lg-left">{!!$course->about_icerik!!}</p>
 
                         </div>
                     </div><!-- .col -->

@@ -1,4 +1,4 @@
-@extends('frontend.layouts.master')
+@extends('frontend.layouts.master_sub')
 @section('title','Rayemer')
 
 
@@ -24,24 +24,24 @@
                     <div class="col-lg-5">
                         <h2 class="contact-title mb-5 text-center">Adres Bilgileri</h2>
                         <div class="contact-location px-xl-3 px-lg-0 px-3">
-                            <p class="m-0">Kursumuz Küçükyalı merkezde, minibüs caddesi üzerinde Migros'un olduğu binada, 2.katındadır.</p>
+                            <p class="m-0">{{$course->about_icerik}}</p>
                             <div class="contact-info-part mt-4">
                                 <div class="media contact-info-wrap">
                                     <div class="media-body d-flex mb-3">
                                         <span class="ti-location-pin contact-icon"></span>
-                                        <p class="contact-info ml-5">Çınar, Bağdat Cd. No: 179 Kat:2, 34841 Maltepe/İstanbul, Türkiye</p>
+                                        <p class="contact-info ml-5">{{$course->adres}}</p>
                                     </div>
                                 </div>
                                 <div class="media contact-info-email-wrap">
                                     <div class="media-body d-flex mb-3">
                                         <span class="ti-email contact-icon"></span>
-                                        <p class="contact-info ml-5">rayemerkurs@gmail.com</p>
+                                        <p class="contact-info ml-5">{{$course->email}}</p>
                                     </div>
                                 </div>
                                 <div class="media contact-info-phone-wrap">
                                     <div class="media-body d-flex">
                                         <span class="ti-mobile contact-icon"></span>
-                                        <p class="contact-info mb-0 ml-5">0 216 549 30 49, 0 552 549 30 49</p>
+                                        <p class="contact-info mb-0 ml-5">{{$course->telefon}}</p>
                                     </div>
                                 </div>
                             </div>

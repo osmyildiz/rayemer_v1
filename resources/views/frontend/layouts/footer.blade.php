@@ -13,7 +13,9 @@
                     <div class="widget-wrap about-widget mb-5">
                         <h2 class="widget-title">Hakkımızda</h2>
                         <div class="widget-content">
-                            <p>Ciddi-disiplinli ama öğrencilerimizi sıkmadan, konsantrasyonlarını bir dakika bile kaybetmelerine izin vermeyecek nitelikli ve kaliteli bir sistemle, eğitimlerini en iyi şekilde sağlama konusunda prensipli ve yüksek hedeflere sahip bir eğitim merkeziyiz. Öğrencilerimizin Liselere Giriş Sınavlarında yada Üniversite Hazırlık Sınavlarında, hedefledikleri başarılara ulaşması en büyük gayemiz ve uğraşımızdır. </p>
+                            <p>
+                                RAYEMER açılımı Rasyonel – Yenilikçi Eğitim Merkezi olan bir eğitim kurumudur. Eğitimin içinden gelen kurucuları ile öğrencilerin ve ailelerin nitelikli ve kaliteli bir eğitim arayışına cevap vermeye çalışan bu kurumda öncelikli amacımız bireyin kendini keşfetmesini sağlamaktır. RAYEMER ailesi olarak inanıyoruz ki, kendi yeteneklerinin farkına varan, kendi çalışma yöntemini bulan bir öğrencinin başarısız olmasına imkan yoktur.
+                            </p>
                         </div><!--.widget-content -->
                     </div><!--.widget-wrap -->
 
@@ -39,7 +41,7 @@
                         <h2 class="widget-title">Bize Ulaşın</h2>
                         <div class="widget-content">
                             <ul class="nav flex-column nav-light-to-theme">
-                                <li class="nav-item"><span class="ti-location-pin contact-icons"></span>Adnan Kahveci Cad.No:2 Kat:2 Küçükyalı Maltepe IST</li>
+                                <li class="nav-item"><span class="ti-location-pin contact-icons"></span>Çınar Mh. Bağdat Cd. No: 179 Kat:2, 34841 Maltepe/İstanbul, Türkiye</li>
                                 <li class="nav-item"><span class="ti-mobile contact-icons"></span><a href="tel://02165493049" class="nav-link">0216 5493049</a></li>
                                 <li class="nav-item"><span class="ti-mobile contact-icons"></span><a href="tel://05525493049" class="nav-link">0552 5493049</a></li>
                                 <li class="nav-item"><span class="ti-email contact-icons"></span><a href="mailto:rayemerkurs@gmail.com" class="nav-link email-id">rayemerkurs@gmail.com</a></li>

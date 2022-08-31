@@ -85,6 +85,8 @@
         </div><!-- .mobile-header -->
     </div><!-- .header-sticky-part -->
 
+
+
     <section class="section section-top vh-100 set-as-background" data-bgimg="{{asset('images/bg/bg2.jpg')}}">
         <span class="abs-theme-bg"></span>
         <div id="particles-js"></div>
@@ -96,8 +98,8 @@
                         <div class="owl-carousel"  data-loop="1" data-nav="0" data-dots="0" data-items="1" data-tab="1" data-mobile="1" data-margin="0" data-autoplay="1" data-animation-in="fade-in">
                             <div class="item p-2">
                                 <!--<h2 class="mb-3 text-uppercase foxy-animate text-white" data-animate="fade-in-down" data-duration="100">ÜNİVERSİTE Hazırlık (TYT-AYT) Kursları</h2>-->
-                                <h2 class="mb-3 text-uppercase foxy-animate text-white" data-animate="fade-in-down" data-duration="100">BURSLULUK ve KABUL SINAVI</h2>
-                                <p class="lead foxy-animate text-white" data-animate="fade-in-up"  data-duration="200">5-6-7-9-10-11.Sınıflar</p>
+                                <h2 class="mb-3 text-uppercase foxy-animate text-white" data-animate="fade-in-down" data-duration="100">LGS KONTENJANLARIMIZ HIZLA DOLMAKTADIR</h2>
+                                <p class="lead foxy-animate text-white" data-animate="fade-in-up"  data-duration="200">Sınırlı kontenjanlarımızı için acele ediniz.</p>
                                 <a href="https://www.instagram.com/p/CZuMA9wDOl5/" class="btn btn-lg btn-primary rounded-0 mt-4 foxy-animate" data-animate="fade-in-left" data-duration="300">Daha fazla</a>
                                 <a href="{{asset('iletisim')}}" class="btn btn-lg btn-light rounded-0 ml-3 mt-4 foxy-animate" data-animate="fade-in-right"  data-duration="350">Sizi Arayalım</a>
 

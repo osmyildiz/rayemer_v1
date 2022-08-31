@@ -377,7 +377,7 @@
                 div covers 100% width of parent div -->
                     <h5 class="modal-title w-100"
                         id="exampleModalLabel">
-                        YKS SON PROVA
+                        YKS HAZIRLIK BAŞLIYOR
                     </h5>
                     <button type="button" class="close"
                             data-dismiss="modal" aria-label="Kapat">
@@ -388,7 +388,7 @@
                 </div>
                 <!--Modal body with image-->
                 <div class="modal-body">
-                    <img src="images/yks_son_prova.png" style="width: 100%" />
+                    <img src="images/rayemer_yks_basladi.jpeg" style="width: 100%" />
                 </div>
 
             </div>
@@ -400,7 +400,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            //$("#myModal").modal('show');
+            $("#myModal").modal('show');
         });
         $('.submit').click(function(){
 

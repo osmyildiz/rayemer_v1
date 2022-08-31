@@ -80,6 +80,8 @@ class HomeController extends Controller
     }
     public function contact()
     {
+
+        $course = DB::table('contact')->find(1);
         SEOMeta::setTitle('Rayemer AYT TYT LGS İletişim',false);
         SEOMeta::setDescription('Üniversite Hazırlık Kursu, Lise Hazırlık kursu, ayrıca 6.sınıf, 7.sınıf, 9.sınıf, 10.sınıf ve 11.sınıf takviye kursları, Maltepe, Küçükyalı, Bostancı');
         SEOMeta::setCanonical('https://rayemer.com');
@@ -89,11 +91,12 @@ class HomeController extends Controller
         OpenGraph::setTitle('İletişim');
         OpenGraph::setUrl('http://rayemer.com/iletisim');
         OpenGraph::addProperty('type', 'articles');
-        return view('frontend.contact');
+        return view('frontend.contact',compact('course'));
 
     }
     public function private_lesson()
     {
+        $course = DB::table('private')->find(1);
         SEOMeta::setTitle('Rayemer Özel Ders',false);
         SEOMeta::setDescription('Üniversite Hazırlık özel ders, Lise Hazırlık özel ders, 6.sınıf özel ders, 7.sınıf özel ders, 9.sınıf özel ders, 10.sınıf özel ders,11.sınıf özel ders, Maltepe özel ders, Küçükyalı özel ders, Bostancı özel ders');
         SEOMeta::setCanonical('https://rayemer.com/ozel-ders');
@@ -104,13 +107,13 @@ class HomeController extends Controller
         OpenGraph::setUrl('http://rayemer.com/ozel-ders');
         OpenGraph::addProperty('type', 'articles');
 
-        return view('frontend.private_lesson');
+        return view('frontend.private_lesson',compact('course'));
 
     }
     public function about()
     {
-        SEOMeta::setTitle('Rayemer Özel Ders',false);
-        SEOMeta::setDescription('Ciddi-disiplinli ama öğrencilerimizi sıkmadan, konsantrasyonlarını bir dakika bile kaybetmelerine izin vermeyecek nitelikli ve kaliteli bir sistemle, eğitimlerini en iyi şekilde sağlama konusunda prensipli ve yüksek hedeflere sahip bir eğitim merkeziyiz.');
+        SEOMeta::setTitle('Rayemer Hakkımızda',false);
+        SEOMeta::setDescription('RAYEMER açılımı Rasyonel – Yenilikçi Eğitim Merkezi olan bir eğitim kurumudur. Eğitimin içinden gelen kurucuları ile öğrencilerin ve ailelerin nitelikli ve kaliteli bir eğitim arayışına cevap vermeye çalışan bu kurumda öncelikli amacımız bireyin kendini keşfetmesini sağlamaktır. ');
         SEOMeta::setCanonical('https://rayemer.com/hakkimizda');
         SEOMeta::setKeywords(["Rayemer,Özel ders,dersane","kurs","birebir ders","online ders","küçükyalı kurs","küçükyalı üniversite hazırlık","küçükyalı deneme","bostancı deneme","bostancı kurs","bostancı üniversite","final","birey","fen bilimleri"]);
 
@@ -118,8 +121,8 @@ class HomeController extends Controller
         OpenGraph::setTitle('Özel ders');
         OpenGraph::setUrl('http://rayemer.com/ozel-ders');
         OpenGraph::addProperty('type', 'articles');
-        $about = About::find(1);
-        return view('frontend.about',compact('about'));
+        $course = About::find(1);
+        return view('frontend.about',compact('course'));
 
     }
     public function course($id)
