@@ -8,13 +8,9 @@
 <link rel="stylesheet" href="{{asset('css/themify-icons.css')}}" >
 <!-- Font Awsome Icon -->
 <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}" >
-<!-- Et Icons -->
 <link rel="stylesheet" href="{{asset('css/et-icons.css')}}" >
-<!-- Magnific PopUp -->
 <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" >
-<!--  Owl Carousel Styles -->
 <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}" >
-<!-- YT Player -->
 <link rel="stylesheet" href="{{asset('css/jquery.mb.YTPlayer.min.css')}}" >
 
 <!-- REVOLUTION STYLE -->
@@ -25,4 +21,24 @@
 <!-- Site Styles -->
 <link rel="stylesheet" href="{{asset('css/styles.css')}}" />
 <link rel="stylesheet" href="{{asset('css/styles-education.css')}}" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168000544-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168000544-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 630168125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-630168125"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-630168125');
+</script>
+
+
 
