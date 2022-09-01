@@ -63,7 +63,6 @@ class HomeController extends Controller
         OpenGraph::setUrl('http://rayemer.com');
         OpenGraph::addProperty('type', 'articles');
 
-
         TwitterCard::setTitle('Rayemer');
         TwitterCard::setSite('@rayemercom');
 
