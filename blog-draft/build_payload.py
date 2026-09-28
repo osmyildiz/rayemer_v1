@@ -7,7 +7,9 @@ def link(url, text):
 
 L_OZEL = link("https://www.rayemer.com/ozel-ders", "özel ders")
 L_ILETISIM = link("https://www.rayemer.com/iletisim", "iletişim sayfamızdan")
-L_HAKKIMIZDA = link("https://www.rayemer.com/hakkimizda", "daha yakından tanıyabilirsiniz")
+L_MALTEPE = link("https://www.rayemer.com/maltepe-dershane", "Maltepe&rsquo;deki dershanemizde")
+L_KUCUKYALI = link("https://www.rayemer.com/kucukyali-lgs-hazirlik-kursu", "Küçükyalı LGS hazırlık kursumuz")
+L_BOSTANCI = link("https://www.rayemer.com/bostanci-yks-hazirlik-kursu", "Bostancı YKS hazırlık kursumuz")
 
 parts = []
 A = parts.append
@@ -34,7 +36,7 @@ A("<ul><li>Soru kökünde uzun bir paragraf, bir grafik, tablo ya da günlük ha
 A("<p>Evde kolay bir testi var: çocuğunuzdan yanlış yaptığı bir soruyu size <em>kendi cümleleriyle</em> anlatmasını isteyin. &ldquo;Soru benden ne istiyor?&rdquo; sorusuna net cevap veremiyorsa sorun konu bilgisinde değil, okuma ve yorumlamada. İyi haber şu: bu, çalışılarak gelişen bir beceridir.</p>")
 
 A("<h2>RAYEMER&rsquo;de bu dönüşüme nasıl hazırlanıyoruz?</h2>")
-A("<p>2019&rsquo;dan bu yana Maltepe Küçükyalı&rsquo;daki merkezimizde LGS ve TYT-AYT hazırlığı yürütüyoruz; Maltepe, Küçükyalı ve Bostancı çevresinden gelen öğrencilerle çalışıyoruz. Soru modeli tartışması gündeme gelmeden önce de gördüğümüz bir gerçek vardı: son yıllarda sınavlarda fark yaratan öğrenci, en çok soru çözen değil, soruyu en iyi okuyan öğrenci. Bu yüzden programımızda şu başlıklar zaten yer alıyor:</p>")
+A("<p>2019&rsquo;dan bu yana " + L_MALTEPE + " LGS ve TYT-AYT hazırlığı yürütüyoruz; Küçükyalı Merkez Migros üstündeki binamıza Maltepe, Küçükyalı ve Bostancı çevresinden öğrenciler geliyor. Program ayrıntılarını " + L_KUCUKYALI + " ve " + L_BOSTANCI + " sayfalarında bulabilirsiniz. Soru modeli tartışması gündeme gelmeden önce de gördüğümüz bir gerçek vardı: son yıllarda sınavlarda fark yaratan öğrenci, en çok soru çözen değil, soruyu en iyi okuyan öğrenci. Bu yüzden programımızda şu başlıklar zaten yer alıyor:</p>")
 A("<ul><li><strong>Deneme sonrası hata analizi:</strong> Net sayısını değil, yanlışın <em>türünü</em> kaydediyoruz &mdash; bilgi eksiği mi, dikkat mi, yanlış okuma mı?</li><li><strong>Soru kökü okuma disiplini:</strong> Uzun köklü sorularda altını çizerek okuma ve soruyu kendi cümlesiyle yeniden ifade etme alışkanlığı.</li><li><strong>Düzenli okuma:</strong> Her öğrenciden günlük kısa ama kesintisiz okuma istiyoruz; beceri temelli sorunun temeli burada atılıyor.</li><li><strong>&ldquo;Neden&rdquo; sorusu:</strong> Doğru cevaba ulaşan öğrenciye de niçin o yolu seçtiğini soruyoruz; ezberle doğru yapılan soru, bağlam değişince kayboluyor.</li><li><strong>Eksik odaklı birebir destek:</strong> Sınıf temposu yetmediğinde " + L_OZEL + " ile konu bazlı açığı kapatıyoruz.</li></ul>")
 
 A("<h2>Veli olarak bu hafta yapabileceğiniz dört şey</h2>")
@@ -50,7 +52,7 @@ A("<p>Test çözmek gerekli, ama tek başına yetmiyor. Soru çözdükten sonra 
 A("<h3>2027 LGS tarihi açıklandı mı?</h3>")
 A("<p>Bu yazının hazırlandığı dönemde 2027 LGS için kesinleşmiş sınav ve başvuru tarihi duyurulmamıştı. Tarih için MEB&rsquo;in resmî açıklamasını takip etmenizi öneririz; tahmin niteliğindeki tarihlere göre plan yapmak gereksiz stres yaratıyor.</p>")
 
-A("<p>Özetle: sınav kalkmıyor, sistem değişmiyor; 2028&rsquo;den itibaren sorular daha çok okuma, yorum ve beceri isteyecek. Bu, düzenli çalışan öğrenci için bir tehdit değil, avantaj. Çocuğunuzun hangi kuşakta olduğunu ve hangi becerilerde desteğe ihtiyacı olduğunu birlikte konuşmak isterseniz, Küçükyalı&rsquo;daki merkezimizde sizi ağırlamaktan memnun oluruz &mdash; " + L_ILETISIM + " bize ulaşabilir, kurumumuzu " + L_HAKKIMIZDA + ".</p>")
+A("<p>Özetle: sınav kalkmıyor, sistem değişmiyor; 2028&rsquo;den itibaren sorular daha çok okuma, yorum ve beceri isteyecek. Bu, düzenli çalışan öğrenci için bir tehdit değil, avantaj. Çocuğunuzun hangi kuşakta olduğunu ve hangi becerilerde desteğe ihtiyacı olduğunu birlikte konuşmak isterseniz, Küçükyalı&rsquo;daki merkezimizde sizi ağırlamaktan memnun oluruz &mdash; " + L_ILETISIM + " bize ulaşabilirsiniz.</p>")
 
 content = "".join(parts)
 assert "\n" not in content and "\r" not in content, "content tek satir olmali"
@@ -65,7 +67,7 @@ payload = {
     "slug": "lgs-ve-yks-kalkiyor-mu-2028-soru-modeli",
     "meta_description": "LGS ve YKS kalkıyor mu? Hayır. MEB sınavların kaldırılmadığını belirtti; 2028'den itibaren yalnızca soru modeli beceri temelli olarak değişiyor.",
     "keywords": "LGS kalkıyor mu, YKS kalkıyor mu, LGS 2028, YKS 2028, beceri temelli sorular, Türkiye Yüzyılı Maarif Modeli, MEB sınav sistemi, LGS 2027, RAYEMER, Maltepe LGS kursu, Küçükyalı YKS kursu, Bostancı dershane",
-    "category_id": "__BLOG_CONTEXT_TEN_DOLDURULACAK__",
+    "category_id": 7,
     "content": content,
 }
 
