@@ -4,6 +4,10 @@
     <serverData>
       <paths name="rayemer_v1">
         <serverdata>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/blog-draft" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.claude" />
+          </excludedPaths>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
